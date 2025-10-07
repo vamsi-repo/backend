@@ -1,0 +1,76 @@
+2025-09-26 16:58:53,027 - __main__ - INFO - Initializing Data Sync AI with backup configuration...
+2025-09-26 16:58:53,027 - __main__ - INFO - Initializing Data Sync AI services using backup configuration...
+2025-09-26 16:58:53,027 - __main__ - INFO - Environment check:
+2025-09-26 16:58:53,028 - __main__ - INFO - FABRIC_CLIENT_ID: SET (36 chars)
+2025-09-26 16:58:53,028 - __main__ - INFO - FABRIC_TENANT_ID: SET (36 chars)
+2025-09-26 16:58:53,028 - __main__ - INFO - FABRIC_CLIENT_SECRET: SET (40 chars)
+2025-09-26 16:58:53,028 - __main__ - INFO - FABRIC_SERVER: SET (88 chars)
+2025-09-26 16:58:53,028 - __main__ - INFO - FABRIC_DATABASE: SET (59 chars)
+2025-09-26 16:58:53,057 - services.fabric_service_backup - INFO - Testing Fabric credentials...
+2025-09-26 16:58:53,058 - services.fabric_service_backup - INFO - Connecting to Fabric SQL with Service Principal authentication...
+2025-09-26 17:00:26,412 - services.fabric_service_backup - ERROR - Fabric connection test failed: ('CE269', "[CE269] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Error 12002 sending request to https://login.windows.net (0) (SQLDriverConnect); [CE269] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Error requesting access token, HTTP status -1, expected 200 (0); [CE269] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Failed to authenticate the user '07fa0494-da26-4a33-b764-0f020b250a38' in Entra ID (Authentication option is 'ActiveDirectoryServicePrincipal').\r\nError code 0xA190; state 41360\r\n (0); [CE269] [Microsoft][ODBC Driver 18 for SQL Server]TCP Provider: Timeout error [258].  (258); [CE269] [Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired (0); [CE269] [Microsoft][ODBC Driver 18 for SQL Server]Unable to complete login process due to delay in login response (258)")
+2025-09-26 17:00:26,413 - __main__ - WARNING - ⚠️ SQL Fabric initialization failed: ('CE269', "[CE269] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Error 12002 sending request to https://login.windows.net (0) (SQLDriverConnect); [CE269] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Error requesting access token, HTTP status -1, expected 200 (0); [CE269] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Failed to authenticate the user '07fa0494-da26-4a33-b764-0f020b250a38' in Entra ID (Authentication option is 'ActiveDirectoryServicePrincipal').\r\nError code 0xA190; state 41360\r\n (0); [CE269] [Microsoft][ODBC Driver 18 for SQL Server]TCP Provider: Timeout error [258].  (258); [CE269] [Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired (0); [CE269] [Microsoft][ODBC Driver 18 for SQL Server]Unable to complete login process due to delay in login response (258)")
+2025-09-26 17:00:26,413 - __main__ - INFO - 📊 Application will run with demo data
+2025-09-26 17:00:26,535 - services.duckdb_service - INFO - DuckDB initialized in memory
+2025-09-26 17:00:26,535 - __main__ - INFO - ✅ DuckDB service initialized successfully
+2025-09-26 17:00:26,535 - __main__ - INFO - 🚀 Starting Data Sync AI using backup patterns
+2025-09-26 17:00:26,535 - __main__ - INFO - ✅ Server running on http://127.0.0.1:5000
+2025-09-26 17:00:27,824 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.145:5000
+2025-09-26 17:00:27,824 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-26 17:00:27,826 - werkzeug - INFO -  * Restarting with stat
+2025-09-26 17:00:28,560 - __main__ - INFO - Initializing Data Sync AI with backup configuration...
+2025-09-26 17:00:28,560 - __main__ - INFO - Initializing Data Sync AI services using backup configuration...
+2025-09-26 17:00:28,560 - __main__ - INFO - Environment check:
+2025-09-26 17:00:28,560 - __main__ - INFO - FABRIC_CLIENT_ID: SET (36 chars)
+2025-09-26 17:00:28,560 - __main__ - INFO - FABRIC_TENANT_ID: SET (36 chars)
+2025-09-26 17:00:28,561 - __main__ - INFO - FABRIC_CLIENT_SECRET: SET (40 chars)
+2025-09-26 17:00:28,561 - __main__ - INFO - FABRIC_SERVER: SET (88 chars)
+2025-09-26 17:00:28,561 - __main__ - INFO - FABRIC_DATABASE: SET (59 chars)
+2025-09-26 17:00:28,585 - services.fabric_service_backup - INFO - Testing Fabric credentials...
+2025-09-26 17:00:28,586 - services.fabric_service_backup - INFO - Connecting to Fabric SQL with Service Principal authentication...
+2025-09-26 17:02:01,883 - services.fabric_service_backup - ERROR - Fabric connection test failed: ('CE269', "[CE269] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Error 12002 sending request to https://login.windows.net (0) (SQLDriverConnect); [CE269] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Error requesting access token, HTTP status -1, expected 200 (0); [CE269] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Failed to authenticate the user '07fa0494-da26-4a33-b764-0f020b250a38' in Entra ID (Authentication option is 'ActiveDirectoryServicePrincipal').\r\nError code 0xA190; state 41360\r\n (0); [CE269] [Microsoft][ODBC Driver 18 for SQL Server]TCP Provider: Timeout error [258].  (258); [CE269] [Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired (0); [CE269] [Microsoft][ODBC Driver 18 for SQL Server]Unable to complete login process due to delay in login response (258)")
+2025-09-26 17:02:01,884 - __main__ - WARNING - ⚠️ SQL Fabric initialization failed: ('CE269', "[CE269] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Error 12002 sending request to https://login.windows.net (0) (SQLDriverConnect); [CE269] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Error requesting access token, HTTP status -1, expected 200 (0); [CE269] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Failed to authenticate the user '07fa0494-da26-4a33-b764-0f020b250a38' in Entra ID (Authentication option is 'ActiveDirectoryServicePrincipal').\r\nError code 0xA190; state 41360\r\n (0); [CE269] [Microsoft][ODBC Driver 18 for SQL Server]TCP Provider: Timeout error [258].  (258); [CE269] [Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired (0); [CE269] [Microsoft][ODBC Driver 18 for SQL Server]Unable to complete login process due to delay in login response (258)")
+2025-09-26 17:02:01,884 - __main__ - INFO - 📊 Application will run with demo data
+2025-09-26 17:02:01,913 - services.duckdb_service - INFO - DuckDB initialized in memory
+2025-09-26 17:02:01,914 - __main__ - INFO - ✅ DuckDB service initialized successfully
+2025-09-26 17:02:01,914 - __main__ - INFO - 🚀 Starting Data Sync AI using backup patterns
+2025-09-26 17:02:01,914 - __main__ - INFO - ✅ Server running on http://127.0.0.1:5000
+2025-09-26 17:02:01,921 - werkzeug - WARNING -  * Debugger is active!
+2025-09-26 17:02:01,927 - werkzeug - INFO -  * Debugger PIN: 135-922-860
+2025-09-26 17:04:46,168 - __main__ - INFO - 🚀 Starting Data Sync AI with backup configuration...
+2025-09-26 17:04:46,168 - __main__ - INFO - Initializing services using backup patterns...
+2025-09-26 17:04:46,185 - __main__ - INFO - ✅ DuckDB initialized in memory
+2025-09-26 17:04:46,185 - __main__ - INFO - ✅ DuckDB service initialized
+2025-09-26 17:04:46,185 - __main__ - INFO - Testing Fabric credentials using backup pattern...
+2025-09-26 17:04:46,185 - __main__ - INFO - AZURE_CLIENT_ID: SET
+2025-09-26 17:04:46,185 - __main__ - INFO - AZURE_TENANT_ID: SET
+2025-09-26 17:04:46,186 - __main__ - INFO - AZURE_CLIENT_SECRET: SET
+2025-09-26 17:04:46,186 - __main__ - INFO - FABRIC_SERVER: vujzmxv6pj5utfki2rrm4f7ehm-3xoszn2rcmeebo5wm4avb26rmi.datawarehouse.fabric.microsoft.com
+2025-09-26 17:04:46,186 - __main__ - INFO - FABRIC_DATABASE: Keansa_AI_Suite_SQL_DB-62c0a061-dfa5-4157-ab9b-94a6b62e41e7
+2025-09-26 17:04:46,186 - __main__ - INFO - Connecting to Fabric SQL with Service Principal authentication...
+2025-09-26 17:06:19,590 - __main__ - ERROR - Fabric connection test failed: ('CE269', "[CE269] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Error 12002 sending request to https://login.windows.net (0) (SQLDriverConnect); [CE269] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Error requesting access token, HTTP status -1, expected 200 (0); [CE269] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Failed to authenticate the user '07fa0494-da26-4a33-b764-0f020b250a38' in Entra ID (Authentication option is 'ActiveDirectoryServicePrincipal').\r\nError code 0xA190; state 41360\r\n (0); [CE269] [Microsoft][ODBC Driver 18 for SQL Server]TCP Provider: Timeout error [258].  (258); [CE269] [Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired (0); [CE269] [Microsoft][ODBC Driver 18 for SQL Server]Unable to complete login process due to delay in login response (258)")
+2025-09-26 17:06:19,591 - __main__ - WARNING - ⚠️ SQL Fabric initialization failed: ('CE269', "[CE269] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Error 12002 sending request to https://login.windows.net (0) (SQLDriverConnect); [CE269] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Error requesting access token, HTTP status -1, expected 200 (0); [CE269] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Failed to authenticate the user '07fa0494-da26-4a33-b764-0f020b250a38' in Entra ID (Authentication option is 'ActiveDirectoryServicePrincipal').\r\nError code 0xA190; state 41360\r\n (0); [CE269] [Microsoft][ODBC Driver 18 for SQL Server]TCP Provider: Timeout error [258].  (258); [CE269] [Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired (0); [CE269] [Microsoft][ODBC Driver 18 for SQL Server]Unable to complete login process due to delay in login response (258)")
+2025-09-26 17:06:19,591 - __main__ - INFO - 📊 Application will run with demo data
+2025-09-26 17:06:19,591 - __main__ - INFO - ✅ Server running on http://127.0.0.1:5000
+2025-09-26 17:06:19,591 - __main__ - INFO - 📋 Backend pattern: Working Backup Copy
+2025-09-26 17:06:19,591 - __main__ - INFO - 🔧 Authentication: admin@example.com / admin123
+2025-09-26 17:06:20,880 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.145:5000
+2025-09-26 17:06:20,881 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-09-26 17:06:20,885 - werkzeug - INFO -  * Restarting with stat
+2025-09-26 17:06:21,649 - __main__ - INFO - 🚀 Starting Data Sync AI with backup configuration...
+2025-09-26 17:06:21,649 - __main__ - INFO - Initializing services using backup patterns...
+2025-09-26 17:06:21,662 - __main__ - INFO - ✅ DuckDB initialized in memory
+2025-09-26 17:06:21,663 - __main__ - INFO - ✅ DuckDB service initialized
+2025-09-26 17:06:21,663 - __main__ - INFO - Testing Fabric credentials using backup pattern...
+2025-09-26 17:06:21,663 - __main__ - INFO - AZURE_CLIENT_ID: SET
+2025-09-26 17:06:21,663 - __main__ - INFO - AZURE_TENANT_ID: SET
+2025-09-26 17:06:21,663 - __main__ - INFO - AZURE_CLIENT_SECRET: SET
+2025-09-26 17:06:21,663 - __main__ - INFO - FABRIC_SERVER: vujzmxv6pj5utfki2rrm4f7ehm-3xoszn2rcmeebo5wm4avb26rmi.datawarehouse.fabric.microsoft.com
+2025-09-26 17:06:21,664 - __main__ - INFO - FABRIC_DATABASE: Keansa_AI_Suite_SQL_DB-62c0a061-dfa5-4157-ab9b-94a6b62e41e7
+2025-09-26 17:06:21,664 - __main__ - INFO - Connecting to Fabric SQL with Service Principal authentication...

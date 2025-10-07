@@ -1,0 +1,584 @@
+2025-09-26 13:33:23,543 - data_sync_ai.api - ERROR - [app.py:34] - Import error: No module named 'azure.storage'
+2025-09-26 13:38:01,351 - data_sync_ai.api - ERROR - [app.py:34] - Import error: No module named 'azure.storage'
+2025-09-26 13:39:24,504 - data_sync_ai.api - ERROR - [app.py:34] - Import error: No module named 'azure.storage'
+2025-09-26 13:45:09,515 - data_sync_ai.api - ERROR - [app.py:34] - Import error: No module named 'pyodbc'
+2025-09-26 14:10:56,375 - data_sync_ai.api - ERROR - [app.py:34] - Import error: No module named 'pyodbc'
+2025-09-26 14:14:36,755 - data_sync_ai.api - INFO - [app.py:32] - All service imports successful
+2025-09-26 14:15:13,352 - data_sync_ai.api - INFO - [app.py:32] - All service imports successful
+2025-09-26 14:16:57,424 - data_sync_ai.api - INFO - [app_compatible.py:275] - Initializing Data Sync AI enterprise services...
+2025-09-26 14:16:59,607 - data_sync_ai.redis - INFO - [app_redis.py:39] - Redis connection established: localhost:6379/0
+2025-09-26 14:16:59,607 - data_sync_ai.api - INFO - [app_compatible.py:281] - Redis cache initialized successfully
+2025-09-26 14:16:59,607 - data_sync_ai.api - INFO - [app_compatible.py:287] - Core services initialized successfully
+2025-09-26 14:16:59,610 - data_sync_ai.api - INFO - [app_compatible.py:296] - Starting Data Sync AI Enterprise API...
+2025-09-26 14:17:00,917 - werkzeug - INFO - [_internal.py:187] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.65:5000
+2025-09-26 14:17:00,917 - werkzeug - INFO - [_internal.py:187] - [33mPress CTRL+C to quit[0m
+2025-09-26 14:17:00,921 - werkzeug - INFO - [_internal.py:187] -  * Restarting with stat
+2025-09-26 14:17:01,739 - data_sync_ai.api - INFO - [app_compatible.py:275] - Initializing Data Sync AI enterprise services...
+2025-09-26 14:17:03,850 - data_sync_ai.redis - INFO - [app_redis.py:39] - Redis connection established: localhost:6379/0
+2025-09-26 14:17:03,850 - data_sync_ai.api - INFO - [app_compatible.py:281] - Redis cache initialized successfully
+2025-09-26 14:17:03,850 - data_sync_ai.api - INFO - [app_compatible.py:287] - Core services initialized successfully
+2025-09-26 14:17:03,854 - data_sync_ai.api - INFO - [app_compatible.py:296] - Starting Data Sync AI Enterprise API...
+2025-09-26 14:17:03,863 - werkzeug - WARNING - [_internal.py:187] -  * Debugger is active!
+2025-09-26 14:17:03,870 - werkzeug - INFO - [_internal.py:187] -  * Debugger PIN: 135-922-860
+2025-09-26 14:45:08,016 - werkzeug - INFO - [_internal.py:187] -  * Detected change in 'C:\\Users\\MOM\\Downloads\\DATA_SYNC_AI\\BACKEND\\app.py', reloading
+2025-09-26 14:45:08,559 - werkzeug - INFO - [_internal.py:187] -  * Restarting with stat
+2025-09-26 14:45:10,105 - data_sync_ai.api - INFO - [app_compatible.py:275] - Initializing Data Sync AI enterprise services...
+2025-09-26 14:45:12,321 - data_sync_ai.redis - INFO - [app_redis.py:39] - Redis connection established: localhost:6379/0
+2025-09-26 14:45:12,322 - data_sync_ai.api - INFO - [app_compatible.py:281] - Redis cache initialized successfully
+2025-09-26 14:45:12,322 - data_sync_ai.api - INFO - [app_compatible.py:287] - Core services initialized successfully
+2025-09-26 14:45:12,326 - data_sync_ai.api - INFO - [app_compatible.py:296] - Starting Data Sync AI Enterprise API...
+2025-09-26 14:45:12,344 - werkzeug - WARNING - [_internal.py:187] -  * Debugger is active!
+2025-09-26 14:45:12,354 - werkzeug - INFO - [_internal.py:187] -  * Debugger PIN: 135-922-860
+2025-09-26 14:46:40,802 - data_sync_ai.api - INFO - [app.py:132] - Initializing Data Sync AI enterprise services...
+2025-09-26 14:46:42,949 - data_sync_ai.redis - INFO - [app_redis.py:39] - Redis connection established: localhost:6379/0
+2025-09-26 14:46:42,949 - data_sync_ai.api - INFO - [app.py:138] - Redis cache initialized successfully
+2025-09-26 14:46:44,525 - data_sync_ai.fabric - INFO - [fabric_service.py:55] - Fabric connection test successful
+2025-09-26 14:46:44,548 - data_sync_ai.fabric - INFO - [fabric_service.py:46] - Fabric connection initialized for database: Keansa_AI_Suite_Backend
+2025-09-26 14:46:44,548 - data_sync_ai.api - INFO - [app.py:155] - SQL Fabric service initialized
+2025-09-26 14:46:44,691 - data_sync_ai.duckdb - ERROR - [duckdb_service.py:52] - DuckDB initialization failed: Parser Error: Unrecognized print format true, supported formats: [json, query_tree, query_tree_optimizer, no_output]
+2025-09-26 14:46:44,692 - data_sync_ai.api - WARNING - [app.py:169] - DuckDB processor initialization failed: Parser Error: Unrecognized print format true, supported formats: [json, query_tree, query_tree_optimizer, no_output]
+2025-09-26 14:46:44,695 - data_sync_ai.api - INFO - [app.py:172] - Core services initialized successfully
+2025-09-26 14:46:44,697 - data_sync_ai.api - INFO - [app.py:180] - Starting Data Sync AI Enterprise API...
+2025-09-26 14:46:46,004 - werkzeug - INFO - [_internal.py:187] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.65:5000
+2025-09-26 14:46:46,004 - werkzeug - INFO - [_internal.py:187] - [33mPress CTRL+C to quit[0m
+2025-09-26 14:46:46,006 - werkzeug - INFO - [_internal.py:187] -  * Restarting with stat
+2025-09-26 14:46:46,842 - data_sync_ai.api - INFO - [app.py:132] - Initializing Data Sync AI enterprise services...
+2025-09-26 14:46:48,949 - data_sync_ai.redis - INFO - [app_redis.py:39] - Redis connection established: localhost:6379/0
+2025-09-26 14:46:48,949 - data_sync_ai.api - INFO - [app.py:138] - Redis cache initialized successfully
+2025-09-26 14:46:50,430 - data_sync_ai.fabric - INFO - [fabric_service.py:55] - Fabric connection test successful
+2025-09-26 14:46:50,470 - data_sync_ai.fabric - INFO - [fabric_service.py:46] - Fabric connection initialized for database: Keansa_AI_Suite_Backend
+2025-09-26 14:46:50,470 - data_sync_ai.api - INFO - [app.py:155] - SQL Fabric service initialized
+2025-09-26 14:46:50,502 - data_sync_ai.duckdb - ERROR - [duckdb_service.py:52] - DuckDB initialization failed: Parser Error: Unrecognized print format true, supported formats: [json, query_tree, query_tree_optimizer, no_output]
+2025-09-26 14:46:50,502 - data_sync_ai.api - WARNING - [app.py:169] - DuckDB processor initialization failed: Parser Error: Unrecognized print format true, supported formats: [json, query_tree, query_tree_optimizer, no_output]
+2025-09-26 14:46:50,505 - data_sync_ai.api - INFO - [app.py:172] - Core services initialized successfully
+2025-09-26 14:46:50,507 - data_sync_ai.api - INFO - [app.py:180] - Starting Data Sync AI Enterprise API...
+2025-09-26 14:46:50,516 - werkzeug - WARNING - [_internal.py:187] -  * Debugger is active!
+2025-09-26 14:46:50,521 - werkzeug - INFO - [_internal.py:187] -  * Debugger PIN: 135-922-860
+2025-09-26 14:47:03,410 - data_sync_ai.api - INFO - [app.py:132] - Initializing Data Sync AI enterprise services...
+2025-09-26 14:47:05,532 - data_sync_ai.redis - INFO - [app_redis.py:39] - Redis connection established: localhost:6379/0
+2025-09-26 14:47:05,532 - data_sync_ai.api - INFO - [app.py:138] - Redis cache initialized successfully
+2025-09-26 14:47:06,843 - data_sync_ai.fabric - INFO - [fabric_service.py:55] - Fabric connection test successful
+2025-09-26 14:47:06,880 - data_sync_ai.fabric - INFO - [fabric_service.py:46] - Fabric connection initialized for database: Keansa_AI_Suite_Backend
+2025-09-26 14:47:06,880 - data_sync_ai.api - INFO - [app.py:155] - SQL Fabric service initialized
+2025-09-26 14:47:06,916 - data_sync_ai.duckdb - ERROR - [duckdb_service.py:52] - DuckDB initialization failed: Parser Error: Unrecognized print format true, supported formats: [json, query_tree, query_tree_optimizer, no_output]
+2025-09-26 14:47:06,916 - data_sync_ai.api - WARNING - [app.py:169] - DuckDB processor initialization failed: Parser Error: Unrecognized print format true, supported formats: [json, query_tree, query_tree_optimizer, no_output]
+2025-09-26 14:47:06,920 - data_sync_ai.api - INFO - [app.py:172] - Core services initialized successfully
+2025-09-26 14:47:06,923 - data_sync_ai.api - INFO - [app.py:180] - Starting Data Sync AI Enterprise API...
+2025-09-26 14:47:08,201 - werkzeug - INFO - [_internal.py:187] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.65:5000
+2025-09-26 14:47:08,202 - werkzeug - INFO - [_internal.py:187] - [33mPress CTRL+C to quit[0m
+2025-09-26 14:47:08,204 - werkzeug - INFO - [_internal.py:187] -  * Restarting with stat
+2025-09-26 14:47:09,047 - data_sync_ai.api - INFO - [app.py:132] - Initializing Data Sync AI enterprise services...
+2025-09-26 14:47:11,165 - data_sync_ai.redis - INFO - [app_redis.py:39] - Redis connection established: localhost:6379/0
+2025-09-26 14:47:11,166 - data_sync_ai.api - INFO - [app.py:138] - Redis cache initialized successfully
+2025-09-26 14:47:12,752 - data_sync_ai.fabric - INFO - [fabric_service.py:55] - Fabric connection test successful
+2025-09-26 14:47:12,774 - data_sync_ai.fabric - INFO - [fabric_service.py:46] - Fabric connection initialized for database: Keansa_AI_Suite_Backend
+2025-09-26 14:47:12,774 - data_sync_ai.api - INFO - [app.py:155] - SQL Fabric service initialized
+2025-09-26 14:47:12,813 - data_sync_ai.duckdb - ERROR - [duckdb_service.py:52] - DuckDB initialization failed: Parser Error: Unrecognized print format true, supported formats: [json, query_tree, query_tree_optimizer, no_output]
+2025-09-26 14:47:12,813 - data_sync_ai.api - WARNING - [app.py:169] - DuckDB processor initialization failed: Parser Error: Unrecognized print format true, supported formats: [json, query_tree, query_tree_optimizer, no_output]
+2025-09-26 14:47:12,817 - data_sync_ai.api - INFO - [app.py:172] - Core services initialized successfully
+2025-09-26 14:47:12,819 - data_sync_ai.api - INFO - [app.py:180] - Starting Data Sync AI Enterprise API...
+2025-09-26 14:47:12,829 - werkzeug - WARNING - [_internal.py:187] -  * Debugger is active!
+2025-09-26 14:47:12,834 - werkzeug - INFO - [_internal.py:187] -  * Debugger PIN: 135-922-860
+2025-09-26 14:55:51,790 - werkzeug - INFO - [_internal.py:187] - 127.0.0.1 - - [26/Sep/2025 14:55:51] "POST /api/auth/login HTTP/1.1" 200 -
+2025-09-26 14:55:55,405 - werkzeug - INFO - [_internal.py:187] - 127.0.0.1 - - [26/Sep/2025 14:55:55] "POST /api/auth/login HTTP/1.1" 200 -
+2025-09-26 15:01:25,720 - werkzeug - INFO - [_internal.py:187] -  * Detected change in 'C:\\Users\\MOM\\Downloads\\DATA_SYNC_AI\\BACKEND\\app.py', reloading
+2025-09-26 15:01:26,330 - werkzeug - INFO - [_internal.py:187] -  * Restarting with stat
+2025-09-26 15:01:27,854 - data_sync_ai.api - INFO - [app.py:132] - Initializing Data Sync AI enterprise services...
+2025-09-26 15:01:30,074 - data_sync_ai.redis - INFO - [app_redis.py:39] - Redis connection established: localhost:6379/0
+2025-09-26 15:01:30,074 - data_sync_ai.api - INFO - [app.py:138] - Redis cache initialized successfully
+2025-09-26 15:01:31,328 - data_sync_ai.fabric - INFO - [fabric_service.py:55] - Fabric connection test successful
+2025-09-26 15:01:31,347 - data_sync_ai.fabric - INFO - [fabric_service.py:46] - Fabric connection initialized for database: Keansa_AI_Suite_Backend
+2025-09-26 15:01:31,374 - data_sync_ai.fabric - DEBUG - [fabric_service.py:64] - Fabric connection established
+2025-09-26 15:01:31,415 - data_sync_ai.fabric - ERROR - [fabric_service.py:99] - Query execution failed: ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near the keyword 'IF'. (156) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near 'users'. (102)")
+2025-09-26 15:01:31,416 - data_sync_ai.fabric - ERROR - [fabric_service.py:100] - Query: 
+        CREATE TABLE IF NOT EXISTS users (
+            user_id NVARCHAR(36) PRIMARY KEY DEFAULT NEWID(),
+            email NVARCHAR(255) UNIQUE NOT NULL,
+            password_hash NVARCHAR(255) NOT NULL,
+            role NVARCHAR(20) NOT NULL CHECK (role IN ('admin', 'tenant', 'user')),
+            name NVARCHAR(255),
+            tenant_id NVARCHAR(36),
+            status NVARCHAR(20) NOT NULL DEFAULT 'active' CHECK (status IN ('active', 'inactive', 'pending')),
+            created_at DATETIME2 DEFAULT GETUTCDATE(),
+            updated_at DATETIME2 DEFAULT GETUTCDATE()
+        )
+        
+2025-09-26 15:01:31,416 - data_sync_ai.fabric - ERROR - [fabric_service.py:101] - Params: ()
+2025-09-26 15:01:31,436 - data_sync_ai.api - INFO - [app.py:159] - Database schema initialized
+2025-09-26 15:01:31,436 - data_sync_ai.api - INFO - [app.py:161] - SQL Fabric service initialized
+2025-09-26 15:01:31,563 - data_sync_ai.duckdb - ERROR - [duckdb_service.py:52] - DuckDB initialization failed: Parser Error: Unrecognized print format true, supported formats: [json, query_tree, query_tree_optimizer, no_output]
+2025-09-26 15:01:31,563 - data_sync_ai.api - WARNING - [app.py:175] - DuckDB processor initialization failed: Parser Error: Unrecognized print format true, supported formats: [json, query_tree, query_tree_optimizer, no_output]
+2025-09-26 15:01:31,567 - data_sync_ai.api - INFO - [app.py:178] - Core services initialized successfully
+2025-09-26 15:01:31,569 - data_sync_ai.api - INFO - [app.py:186] - Starting Data Sync AI Enterprise API...
+2025-09-26 15:01:31,581 - werkzeug - WARNING - [_internal.py:187] -  * Debugger is active!
+2025-09-26 15:01:31,589 - werkzeug - INFO - [_internal.py:187] -  * Debugger PIN: 135-922-860
+2025-09-26 15:03:28,946 - data_sync_ai.api - INFO - [app.py:132] - Initializing Data Sync AI enterprise services...
+2025-09-26 15:03:31,088 - data_sync_ai.redis - INFO - [app_redis.py:39] - Redis connection established: localhost:6379/0
+2025-09-26 15:03:31,088 - data_sync_ai.api - INFO - [app.py:138] - Redis cache initialized successfully
+2025-09-26 15:03:32,342 - data_sync_ai.fabric - INFO - [fabric_service.py:55] - Fabric connection test successful
+2025-09-26 15:03:32,361 - data_sync_ai.fabric - INFO - [fabric_service.py:46] - Fabric connection initialized for database: Keansa_AI_Suite_Backend
+2025-09-26 15:03:32,381 - data_sync_ai.fabric - DEBUG - [fabric_service.py:64] - Fabric connection established
+2025-09-26 15:03:32,421 - data_sync_ai.fabric - ERROR - [fabric_service.py:99] - Query execution failed: ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near the keyword 'IF'. (156) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near 'users'. (102)")
+2025-09-26 15:03:32,421 - data_sync_ai.fabric - ERROR - [fabric_service.py:100] - Query: 
+        CREATE TABLE IF NOT EXISTS users (
+            user_id NVARCHAR(36) PRIMARY KEY DEFAULT NEWID(),
+            email NVARCHAR(255) UNIQUE NOT NULL,
+            password_hash NVARCHAR(255) NOT NULL,
+            role NVARCHAR(20) NOT NULL CHECK (role IN ('admin', 'tenant', 'user')),
+            name NVARCHAR(255),
+            tenant_id NVARCHAR(36),
+            status NVARCHAR(20) NOT NULL DEFAULT 'active' CHECK (status IN ('active', 'inactive', 'pending')),
+            created_at DATETIME2 DEFAULT GETUTCDATE(),
+            updated_at DATETIME2 DEFAULT GETUTCDATE()
+        )
+        
+2025-09-26 15:03:32,422 - data_sync_ai.fabric - ERROR - [fabric_service.py:101] - Params: ()
+2025-09-26 15:03:32,441 - data_sync_ai.api - INFO - [app.py:159] - Database schema initialized
+2025-09-26 15:03:32,441 - data_sync_ai.api - INFO - [app.py:161] - SQL Fabric service initialized
+2025-09-26 15:03:32,474 - data_sync_ai.duckdb - ERROR - [duckdb_service.py:52] - DuckDB initialization failed: Parser Error: Unrecognized print format true, supported formats: [json, query_tree, query_tree_optimizer, no_output]
+2025-09-26 15:03:32,474 - data_sync_ai.api - WARNING - [app.py:175] - DuckDB processor initialization failed: Parser Error: Unrecognized print format true, supported formats: [json, query_tree, query_tree_optimizer, no_output]
+2025-09-26 15:03:32,478 - data_sync_ai.api - INFO - [app.py:178] - Core services initialized successfully
+2025-09-26 15:03:32,480 - data_sync_ai.api - INFO - [app.py:186] - Starting Data Sync AI Enterprise API...
+2025-09-26 15:03:33,765 - werkzeug - INFO - [_internal.py:187] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.65:5000
+2025-09-26 15:03:33,765 - werkzeug - INFO - [_internal.py:187] - [33mPress CTRL+C to quit[0m
+2025-09-26 15:03:33,767 - werkzeug - INFO - [_internal.py:187] -  * Restarting with stat
+2025-09-26 15:03:34,526 - data_sync_ai.api - INFO - [app.py:132] - Initializing Data Sync AI enterprise services...
+2025-09-26 15:03:36,633 - data_sync_ai.redis - INFO - [app_redis.py:39] - Redis connection established: localhost:6379/0
+2025-09-26 15:03:36,634 - data_sync_ai.api - INFO - [app.py:138] - Redis cache initialized successfully
+2025-09-26 15:03:37,726 - data_sync_ai.fabric - INFO - [fabric_service.py:55] - Fabric connection test successful
+2025-09-26 15:03:37,747 - data_sync_ai.fabric - INFO - [fabric_service.py:46] - Fabric connection initialized for database: Keansa_AI_Suite_Backend
+2025-09-26 15:03:37,767 - data_sync_ai.fabric - DEBUG - [fabric_service.py:64] - Fabric connection established
+2025-09-26 15:03:37,811 - data_sync_ai.fabric - ERROR - [fabric_service.py:99] - Query execution failed: ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near the keyword 'IF'. (156) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near 'users'. (102)")
+2025-09-26 15:03:37,811 - data_sync_ai.fabric - ERROR - [fabric_service.py:100] - Query: 
+        CREATE TABLE IF NOT EXISTS users (
+            user_id NVARCHAR(36) PRIMARY KEY DEFAULT NEWID(),
+            email NVARCHAR(255) UNIQUE NOT NULL,
+            password_hash NVARCHAR(255) NOT NULL,
+            role NVARCHAR(20) NOT NULL CHECK (role IN ('admin', 'tenant', 'user')),
+            name NVARCHAR(255),
+            tenant_id NVARCHAR(36),
+            status NVARCHAR(20) NOT NULL DEFAULT 'active' CHECK (status IN ('active', 'inactive', 'pending')),
+            created_at DATETIME2 DEFAULT GETUTCDATE(),
+            updated_at DATETIME2 DEFAULT GETUTCDATE()
+        )
+        
+2025-09-26 15:03:37,812 - data_sync_ai.fabric - ERROR - [fabric_service.py:101] - Params: ()
+2025-09-26 15:03:37,832 - data_sync_ai.api - INFO - [app.py:159] - Database schema initialized
+2025-09-26 15:03:37,832 - data_sync_ai.api - INFO - [app.py:161] - SQL Fabric service initialized
+2025-09-26 15:03:37,862 - data_sync_ai.duckdb - ERROR - [duckdb_service.py:52] - DuckDB initialization failed: Parser Error: Unrecognized print format true, supported formats: [json, query_tree, query_tree_optimizer, no_output]
+2025-09-26 15:03:37,863 - data_sync_ai.api - WARNING - [app.py:175] - DuckDB processor initialization failed: Parser Error: Unrecognized print format true, supported formats: [json, query_tree, query_tree_optimizer, no_output]
+2025-09-26 15:03:37,865 - data_sync_ai.api - INFO - [app.py:178] - Core services initialized successfully
+2025-09-26 15:03:37,868 - data_sync_ai.api - INFO - [app.py:186] - Starting Data Sync AI Enterprise API...
+2025-09-26 15:03:37,875 - werkzeug - WARNING - [_internal.py:187] -  * Debugger is active!
+2025-09-26 15:03:37,880 - werkzeug - INFO - [_internal.py:187] -  * Debugger PIN: 135-922-860
+2025-09-26 15:11:52,042 - werkzeug - INFO - [_internal.py:187] -  * Detected change in 'C:\\Users\\MOM\\Downloads\\DATA_SYNC_AI\\BACKEND\\app.py', reloading
+2025-09-26 15:11:52,465 - werkzeug - INFO - [_internal.py:187] -  * Restarting with stat
+2025-09-26 15:11:54,153 - data_sync_ai.api - INFO - [app.py:132] - Initializing Data Sync AI enterprise services...
+2025-09-26 15:11:56,394 - data_sync_ai.redis - INFO - [app_redis.py:39] - Redis connection established: localhost:6379/0
+2025-09-26 15:11:56,395 - data_sync_ai.api - INFO - [app.py:138] - Redis cache initialized successfully
+2025-09-26 15:11:58,012 - data_sync_ai.fabric - INFO - [fabric_service.py:55] - Fabric connection test successful
+2025-09-26 15:11:58,051 - data_sync_ai.fabric - INFO - [fabric_service.py:46] - Fabric connection initialized for database: Keansa_AI_Suite_Backend
+2025-09-26 15:11:58,100 - data_sync_ai.fabric - DEBUG - [fabric_service.py:64] - Fabric connection established
+2025-09-26 15:11:58,146 - data_sync_ai.fabric - ERROR - [fabric_service.py:99] - Query execution failed: ('42000', '[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]The DEFAULT keyword is not supported in the CREATE TABLE statement in this edition of SQL Server. (24584) (SQLExecDirectW)')
+2025-09-26 15:11:58,147 - data_sync_ai.fabric - ERROR - [fabric_service.py:100] - Query: 
+        IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[users]') AND type in (N'U'))
+        BEGIN
+            CREATE TABLE [dbo].[users] (
+                [user_id] NVARCHAR(36) NOT NULL DEFAULT NEWID(),
+                [email] NVARCHAR(255) NOT NULL,
+                [password_hash] NVARCHAR(255) NOT NULL,
+                [role] NVARCHAR(20) NOT NULL CHECK ([role] IN ('admin', 'tenant', 'user')),
+                [name] NVARCHAR(255),
+                [tenant_id] NVARCHAR(36),
+                [status] NVARCHAR(20) NOT NULL DEFAULT 'active' CHECK ([status] IN ('active', 'inactive', 'pending')),
+                [created_at] DATETIME2 NOT NULL DEFAULT GETUTCDATE(),
+                [updated_at] DATETIME2 NOT NULL DEFAULT GETUTCDATE(),
+                CONSTRAINT [PK_users] PRIMARY KEY ([user_id]),
+                CONSTRAINT [UQ_users_email] UNIQUE ([email])
+            )
+        END
+        
+2025-09-26 15:11:58,147 - data_sync_ai.fabric - ERROR - [fabric_service.py:101] - Params: ()
+2025-09-26 15:11:58,186 - data_sync_ai.fabric - DEBUG - [fabric_service.py:64] - Fabric connection established
+2025-09-26 15:11:58,238 - data_sync_ai.fabric - ERROR - [fabric_service.py:99] - Query execution failed: ('42000', '[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]The DEFAULT keyword is not supported in the CREATE TABLE statement in this edition of SQL Server. (24584) (SQLExecDirectW)')
+2025-09-26 15:11:58,238 - data_sync_ai.fabric - ERROR - [fabric_service.py:100] - Query: 
+        IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[excel_templates]') AND type in (N'U'))
+        BEGIN
+            CREATE TABLE [dbo].[excel_templates] (
+                [template_id] NVARCHAR(36) NOT NULL DEFAULT NEWID(),
+                [name] NVARCHAR(255) NOT NULL,
+                [created_by] NVARCHAR(36) NOT NULL,
+                [tenant_id] NVARCHAR(36),
+                [column_count] INT,
+                [file_size] BIGINT,
+                [created_at] DATETIME2 NOT NULL DEFAULT GETUTCDATE(),
+                [updated_at] DATETIME2 NOT NULL DEFAULT GETUTCDATE(),
+                CONSTRAINT [PK_excel_templates] PRIMARY KEY ([template_id])
+            )
+        END
+        
+2025-09-26 15:11:58,238 - data_sync_ai.fabric - ERROR - [fabric_service.py:101] - Params: ()
+2025-09-26 15:11:58,277 - data_sync_ai.fabric - DEBUG - [fabric_service.py:64] - Fabric connection established
+2025-09-26 15:11:58,324 - data_sync_ai.fabric - ERROR - [fabric_service.py:99] - Query execution failed: ('42000', '[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]The DEFAULT keyword is not supported in the CREATE TABLE statement in this edition of SQL Server. (24584) (SQLExecDirectW)')
+2025-09-26 15:11:58,325 - data_sync_ai.fabric - ERROR - [fabric_service.py:100] - Query: 
+        IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[template_columns]') AND type in (N'U'))
+        BEGIN
+            CREATE TABLE [dbo].[template_columns] (
+                [column_id] NVARCHAR(36) NOT NULL DEFAULT NEWID(),
+                [template_id] NVARCHAR(36) NOT NULL,
+                [column_name] NVARCHAR(255) NOT NULL,
+                [data_type] NVARCHAR(50) NOT NULL,
+                [is_required] BIT NOT NULL DEFAULT 0,
+                [column_order] INT,
+                [created_at] DATETIME2 NOT NULL DEFAULT GETUTCDATE(),
+                CONSTRAINT [PK_template_columns] PRIMARY KEY ([column_id])
+            )
+        END
+        
+2025-09-26 15:11:58,325 - data_sync_ai.fabric - ERROR - [fabric_service.py:101] - Params: ()
+2025-09-26 15:11:58,366 - data_sync_ai.fabric - DEBUG - [fabric_service.py:64] - Fabric connection established
+2025-09-26 15:11:58,413 - data_sync_ai.fabric - ERROR - [fabric_service.py:99] - Query execution failed: ('42000', '[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]The DEFAULT keyword is not supported in the CREATE TABLE statement in this edition of SQL Server. (24584) (SQLExecDirectW)')
+2025-09-26 15:11:58,413 - data_sync_ai.fabric - ERROR - [fabric_service.py:100] - Query: 
+        IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[column_validation_rules]') AND type in (N'U'))
+        BEGIN
+            CREATE TABLE [dbo].[column_validation_rules] (
+                [rule_id] NVARCHAR(36) NOT NULL DEFAULT NEWID(),
+                [column_id] NVARCHAR(36) NOT NULL,
+                [rule_type] NVARCHAR(50) NOT NULL,
+                [rule_value] NVARCHAR(500),
+                [error_message] NVARCHAR(500),
+                [is_active] BIT NOT NULL DEFAULT 1,
+                [created_at] DATETIME2 NOT NULL DEFAULT GETUTCDATE(),
+                CONSTRAINT [PK_column_validation_rules] PRIMARY KEY ([rule_id])
+            )
+        END
+        
+2025-09-26 15:11:58,414 - data_sync_ai.fabric - ERROR - [fabric_service.py:101] - Params: ()
+2025-09-26 15:11:58,453 - data_sync_ai.fabric - DEBUG - [fabric_service.py:64] - Fabric connection established
+2025-09-26 15:11:58,498 - data_sync_ai.fabric - ERROR - [fabric_service.py:99] - Query execution failed: ('42000', '[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]The DEFAULT keyword is not supported in the CREATE TABLE statement in this edition of SQL Server. (24584) (SQLExecDirectW)')
+2025-09-26 15:11:58,499 - data_sync_ai.fabric - ERROR - [fabric_service.py:100] - Query: 
+        IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[validation_history]') AND type in (N'U'))
+        BEGIN
+            CREATE TABLE [dbo].[validation_history] (
+                [validation_id] NVARCHAR(36) NOT NULL DEFAULT NEWID(),
+                [template_id] NVARCHAR(36) NOT NULL,
+                [user_id] NVARCHAR(36) NOT NULL,
+                [tenant_id] NVARCHAR(36),
+                [original_filename] NVARCHAR(500),
+                [total_rows] INT,
+                [error_count] INT NOT NULL DEFAULT 0,
+                [status] NVARCHAR(20) NOT NULL DEFAULT 'pending' CHECK ([status] IN ('pending', 'processing', 'completed', 'failed')),
+                [lakehouse_original_path] NVARCHAR(1000),
+                [lakehouse_corrected_path] NVARCHAR(1000),
+                [processing_start] DATETIME2,
+                [processing_end] DATETIME2,
+                [created_at] DATETIME2 NOT NULL DEFAULT GETUTCDATE(),
+                CONSTRAINT [PK_validation_history] PRIMARY KEY ([validation_id])
+            )
+        END
+        
+2025-09-26 15:11:58,499 - data_sync_ai.fabric - ERROR - [fabric_service.py:101] - Params: ()
+2025-09-26 15:11:58,538 - data_sync_ai.fabric - DEBUG - [fabric_service.py:64] - Fabric connection established
+2025-09-26 15:11:58,583 - data_sync_ai.fabric - ERROR - [fabric_service.py:99] - Query execution failed: ('42S02', "[42S02] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid object name 'dbo.users'. (208) (SQLExecDirectW); [42S02] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+2025-09-26 15:11:58,583 - data_sync_ai.fabric - ERROR - [fabric_service.py:100] - Query: SELECT COUNT(*) as count FROM [dbo].[users] WHERE [email] = ?
+2025-09-26 15:11:58,583 - data_sync_ai.fabric - ERROR - [fabric_service.py:101] - Params: ('admin@datasync.ai',)
+2025-09-26 15:11:58,584 - data_sync_ai.api - INFO - [app.py:159] - Database schema initialized
+2025-09-26 15:11:58,584 - data_sync_ai.api - INFO - [app.py:161] - SQL Fabric service initialized
+2025-09-26 15:11:58,638 - data_sync_ai.duckdb - ERROR - [duckdb_service.py:52] - DuckDB initialization failed: Parser Error: Unrecognized print format true, supported formats: [json, query_tree, query_tree_optimizer, no_output]
+2025-09-26 15:11:58,638 - data_sync_ai.api - WARNING - [app.py:175] - DuckDB processor initialization failed: Parser Error: Unrecognized print format true, supported formats: [json, query_tree, query_tree_optimizer, no_output]
+2025-09-26 15:11:58,643 - data_sync_ai.api - INFO - [app.py:178] - Core services initialized successfully
+2025-09-26 15:11:58,646 - data_sync_ai.api - INFO - [app.py:186] - Starting Data Sync AI Enterprise API...
+2025-09-26 15:11:58,666 - werkzeug - WARNING - [_internal.py:187] -  * Debugger is active!
+2025-09-26 15:11:58,675 - werkzeug - INFO - [_internal.py:187] -  * Debugger PIN: 135-922-860
+2025-09-26 15:33:25,249 - data_sync_ai.api - INFO - [app.py:132] - Initializing Data Sync AI enterprise services...
+2025-09-26 15:33:27,442 - data_sync_ai.redis - INFO - [app_redis.py:39] - Redis connection established: localhost:6379/0
+2025-09-26 15:33:27,442 - data_sync_ai.api - INFO - [app.py:138] - Redis cache initialized successfully
+2025-09-26 15:33:29,125 - data_sync_ai.fabric - INFO - [fabric_service.py:55] - Fabric connection test successful
+2025-09-26 15:33:29,164 - data_sync_ai.fabric - INFO - [fabric_service.py:46] - Fabric connection initialized for database: Keansa_AI_Suite_Backend
+2025-09-26 15:33:29,204 - data_sync_ai.fabric - DEBUG - [fabric_service.py:64] - Fabric connection established
+2025-09-26 15:33:29,249 - data_sync_ai.fabric - ERROR - [fabric_service.py:99] - Query execution failed: ('42000', '[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]The DEFAULT keyword is not supported in the CREATE TABLE statement in this edition of SQL Server. (24584) (SQLExecDirectW)')
+2025-09-26 15:33:29,250 - data_sync_ai.fabric - ERROR - [fabric_service.py:100] - Query: 
+        IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[users]') AND type in (N'U'))
+        BEGIN
+            CREATE TABLE [dbo].[users] (
+                [user_id] NVARCHAR(36) NOT NULL DEFAULT NEWID(),
+                [email] NVARCHAR(255) NOT NULL,
+                [password_hash] NVARCHAR(255) NOT NULL,
+                [role] NVARCHAR(20) NOT NULL CHECK ([role] IN ('admin', 'tenant', 'user')),
+                [name] NVARCHAR(255),
+                [tenant_id] NVARCHAR(36),
+                [status] NVARCHAR(20) NOT NULL DEFAULT 'active' CHECK ([status] IN ('active', 'inactive', 'pending')),
+                [created_at] DATETIME2 NOT NULL DEFAULT GETUTCDATE(),
+                [updated_at] DATETIME2 NOT NULL DEFAULT GETUTCDATE(),
+                CONSTRAINT [PK_users] PRIMARY KEY ([user_id]),
+                CONSTRAINT [UQ_users_email] UNIQUE ([email])
+            )
+        END
+        
+2025-09-26 15:33:29,250 - data_sync_ai.fabric - ERROR - [fabric_service.py:101] - Params: ()
+2025-09-26 15:33:29,288 - data_sync_ai.fabric - DEBUG - [fabric_service.py:64] - Fabric connection established
+2025-09-26 15:33:29,332 - data_sync_ai.fabric - ERROR - [fabric_service.py:99] - Query execution failed: ('42000', '[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]The DEFAULT keyword is not supported in the CREATE TABLE statement in this edition of SQL Server. (24584) (SQLExecDirectW)')
+2025-09-26 15:33:29,332 - data_sync_ai.fabric - ERROR - [fabric_service.py:100] - Query: 
+        IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[excel_templates]') AND type in (N'U'))
+        BEGIN
+            CREATE TABLE [dbo].[excel_templates] (
+                [template_id] NVARCHAR(36) NOT NULL DEFAULT NEWID(),
+                [name] NVARCHAR(255) NOT NULL,
+                [created_by] NVARCHAR(36) NOT NULL,
+                [tenant_id] NVARCHAR(36),
+                [column_count] INT,
+                [file_size] BIGINT,
+                [created_at] DATETIME2 NOT NULL DEFAULT GETUTCDATE(),
+                [updated_at] DATETIME2 NOT NULL DEFAULT GETUTCDATE(),
+                CONSTRAINT [PK_excel_templates] PRIMARY KEY ([template_id])
+            )
+        END
+        
+2025-09-26 15:33:29,333 - data_sync_ai.fabric - ERROR - [fabric_service.py:101] - Params: ()
+2025-09-26 15:33:29,370 - data_sync_ai.fabric - DEBUG - [fabric_service.py:64] - Fabric connection established
+2025-09-26 15:33:29,418 - data_sync_ai.fabric - ERROR - [fabric_service.py:99] - Query execution failed: ('42000', '[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]The DEFAULT keyword is not supported in the CREATE TABLE statement in this edition of SQL Server. (24584) (SQLExecDirectW)')
+2025-09-26 15:33:29,418 - data_sync_ai.fabric - ERROR - [fabric_service.py:100] - Query: 
+        IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[template_columns]') AND type in (N'U'))
+        BEGIN
+            CREATE TABLE [dbo].[template_columns] (
+                [column_id] NVARCHAR(36) NOT NULL DEFAULT NEWID(),
+                [template_id] NVARCHAR(36) NOT NULL,
+                [column_name] NVARCHAR(255) NOT NULL,
+                [data_type] NVARCHAR(50) NOT NULL,
+                [is_required] BIT NOT NULL DEFAULT 0,
+                [column_order] INT,
+                [created_at] DATETIME2 NOT NULL DEFAULT GETUTCDATE(),
+                CONSTRAINT [PK_template_columns] PRIMARY KEY ([column_id])
+            )
+        END
+        
+2025-09-26 15:33:29,419 - data_sync_ai.fabric - ERROR - [fabric_service.py:101] - Params: ()
+2025-09-26 15:33:29,457 - data_sync_ai.fabric - DEBUG - [fabric_service.py:64] - Fabric connection established
+2025-09-26 15:33:29,510 - data_sync_ai.fabric - ERROR - [fabric_service.py:99] - Query execution failed: ('42000', '[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]The DEFAULT keyword is not supported in the CREATE TABLE statement in this edition of SQL Server. (24584) (SQLExecDirectW)')
+2025-09-26 15:33:29,510 - data_sync_ai.fabric - ERROR - [fabric_service.py:100] - Query: 
+        IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[column_validation_rules]') AND type in (N'U'))
+        BEGIN
+            CREATE TABLE [dbo].[column_validation_rules] (
+                [rule_id] NVARCHAR(36) NOT NULL DEFAULT NEWID(),
+                [column_id] NVARCHAR(36) NOT NULL,
+                [rule_type] NVARCHAR(50) NOT NULL,
+                [rule_value] NVARCHAR(500),
+                [error_message] NVARCHAR(500),
+                [is_active] BIT NOT NULL DEFAULT 1,
+                [created_at] DATETIME2 NOT NULL DEFAULT GETUTCDATE(),
+                CONSTRAINT [PK_column_validation_rules] PRIMARY KEY ([rule_id])
+            )
+        END
+        
+2025-09-26 15:33:29,510 - data_sync_ai.fabric - ERROR - [fabric_service.py:101] - Params: ()
+2025-09-26 15:33:29,548 - data_sync_ai.fabric - DEBUG - [fabric_service.py:64] - Fabric connection established
+2025-09-26 15:33:29,593 - data_sync_ai.fabric - ERROR - [fabric_service.py:99] - Query execution failed: ('42000', '[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]The DEFAULT keyword is not supported in the CREATE TABLE statement in this edition of SQL Server. (24584) (SQLExecDirectW)')
+2025-09-26 15:33:29,593 - data_sync_ai.fabric - ERROR - [fabric_service.py:100] - Query: 
+        IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[validation_history]') AND type in (N'U'))
+        BEGIN
+            CREATE TABLE [dbo].[validation_history] (
+                [validation_id] NVARCHAR(36) NOT NULL DEFAULT NEWID(),
+                [template_id] NVARCHAR(36) NOT NULL,
+                [user_id] NVARCHAR(36) NOT NULL,
+                [tenant_id] NVARCHAR(36),
+                [original_filename] NVARCHAR(500),
+                [total_rows] INT,
+                [error_count] INT NOT NULL DEFAULT 0,
+                [status] NVARCHAR(20) NOT NULL DEFAULT 'pending' CHECK ([status] IN ('pending', 'processing', 'completed', 'failed')),
+                [lakehouse_original_path] NVARCHAR(1000),
+                [lakehouse_corrected_path] NVARCHAR(1000),
+                [processing_start] DATETIME2,
+                [processing_end] DATETIME2,
+                [created_at] DATETIME2 NOT NULL DEFAULT GETUTCDATE(),
+                CONSTRAINT [PK_validation_history] PRIMARY KEY ([validation_id])
+            )
+        END
+        
+2025-09-26 15:33:29,593 - data_sync_ai.fabric - ERROR - [fabric_service.py:101] - Params: ()
+2025-09-26 15:33:29,638 - data_sync_ai.fabric - DEBUG - [fabric_service.py:64] - Fabric connection established
+2025-09-26 15:33:29,680 - data_sync_ai.fabric - ERROR - [fabric_service.py:99] - Query execution failed: ('42S02', "[42S02] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid object name 'dbo.users'. (208) (SQLExecDirectW); [42S02] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+2025-09-26 15:33:29,680 - data_sync_ai.fabric - ERROR - [fabric_service.py:100] - Query: SELECT COUNT(*) as count FROM [dbo].[users] WHERE [email] = ?
+2025-09-26 15:33:29,680 - data_sync_ai.fabric - ERROR - [fabric_service.py:101] - Params: ('admin@datasync.ai',)
+2025-09-26 15:33:29,680 - data_sync_ai.api - INFO - [app.py:159] - Database schema initialized
+2025-09-26 15:33:29,681 - data_sync_ai.api - INFO - [app.py:161] - SQL Fabric service initialized
+2025-09-26 15:33:29,804 - data_sync_ai.duckdb - ERROR - [duckdb_service.py:52] - DuckDB initialization failed: Parser Error: Unrecognized print format true, supported formats: [json, query_tree, query_tree_optimizer, no_output]
+2025-09-26 15:33:29,805 - data_sync_ai.api - WARNING - [app.py:175] - DuckDB processor initialization failed: Parser Error: Unrecognized print format true, supported formats: [json, query_tree, query_tree_optimizer, no_output]
+2025-09-26 15:33:29,808 - data_sync_ai.api - INFO - [app.py:178] - Core services initialized successfully
+2025-09-26 15:33:29,810 - data_sync_ai.api - INFO - [app.py:186] - Starting Data Sync AI Enterprise API...
+2025-09-26 15:33:31,121 - werkzeug - INFO - [_internal.py:187] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.65:5000
+2025-09-26 15:33:31,122 - werkzeug - INFO - [_internal.py:187] - [33mPress CTRL+C to quit[0m
+2025-09-26 15:33:31,123 - werkzeug - INFO - [_internal.py:187] -  * Restarting with stat
+2025-09-26 15:33:31,962 - data_sync_ai.api - INFO - [app.py:132] - Initializing Data Sync AI enterprise services...
+2025-09-26 15:33:34,074 - data_sync_ai.redis - INFO - [app_redis.py:39] - Redis connection established: localhost:6379/0
+2025-09-26 15:33:34,074 - data_sync_ai.api - INFO - [app.py:138] - Redis cache initialized successfully
+2025-09-26 15:33:35,240 - data_sync_ai.fabric - INFO - [fabric_service.py:55] - Fabric connection test successful
+2025-09-26 15:33:35,259 - data_sync_ai.fabric - INFO - [fabric_service.py:46] - Fabric connection initialized for database: Keansa_AI_Suite_Backend
+2025-09-26 15:33:35,281 - data_sync_ai.fabric - DEBUG - [fabric_service.py:64] - Fabric connection established
+2025-09-26 15:33:35,313 - data_sync_ai.fabric - ERROR - [fabric_service.py:99] - Query execution failed: ('42000', '[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]The DEFAULT keyword is not supported in the CREATE TABLE statement in this edition of SQL Server. (24584) (SQLExecDirectW)')
+2025-09-26 15:33:35,313 - data_sync_ai.fabric - ERROR - [fabric_service.py:100] - Query: 
+        IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[users]') AND type in (N'U'))
+        BEGIN
+            CREATE TABLE [dbo].[users] (
+                [user_id] NVARCHAR(36) NOT NULL DEFAULT NEWID(),
+                [email] NVARCHAR(255) NOT NULL,
+                [password_hash] NVARCHAR(255) NOT NULL,
+                [role] NVARCHAR(20) NOT NULL CHECK ([role] IN ('admin', 'tenant', 'user')),
+                [name] NVARCHAR(255),
+                [tenant_id] NVARCHAR(36),
+                [status] NVARCHAR(20) NOT NULL DEFAULT 'active' CHECK ([status] IN ('active', 'inactive', 'pending')),
+                [created_at] DATETIME2 NOT NULL DEFAULT GETUTCDATE(),
+                [updated_at] DATETIME2 NOT NULL DEFAULT GETUTCDATE(),
+                CONSTRAINT [PK_users] PRIMARY KEY ([user_id]),
+                CONSTRAINT [UQ_users_email] UNIQUE ([email])
+            )
+        END
+        
+2025-09-26 15:33:35,314 - data_sync_ai.fabric - ERROR - [fabric_service.py:101] - Params: ()
+2025-09-26 15:33:35,334 - data_sync_ai.fabric - DEBUG - [fabric_service.py:64] - Fabric connection established
+2025-09-26 15:33:35,361 - data_sync_ai.fabric - ERROR - [fabric_service.py:99] - Query execution failed: ('42000', '[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]The DEFAULT keyword is not supported in the CREATE TABLE statement in this edition of SQL Server. (24584) (SQLExecDirectW)')
+2025-09-26 15:33:35,361 - data_sync_ai.fabric - ERROR - [fabric_service.py:100] - Query: 
+        IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[excel_templates]') AND type in (N'U'))
+        BEGIN
+            CREATE TABLE [dbo].[excel_templates] (
+                [template_id] NVARCHAR(36) NOT NULL DEFAULT NEWID(),
+                [name] NVARCHAR(255) NOT NULL,
+                [created_by] NVARCHAR(36) NOT NULL,
+                [tenant_id] NVARCHAR(36),
+                [column_count] INT,
+                [file_size] BIGINT,
+                [created_at] DATETIME2 NOT NULL DEFAULT GETUTCDATE(),
+                [updated_at] DATETIME2 NOT NULL DEFAULT GETUTCDATE(),
+                CONSTRAINT [PK_excel_templates] PRIMARY KEY ([template_id])
+            )
+        END
+        
+2025-09-26 15:33:35,362 - data_sync_ai.fabric - ERROR - [fabric_service.py:101] - Params: ()
+2025-09-26 15:33:35,383 - data_sync_ai.fabric - DEBUG - [fabric_service.py:64] - Fabric connection established
+2025-09-26 15:33:35,411 - data_sync_ai.fabric - ERROR - [fabric_service.py:99] - Query execution failed: ('42000', '[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]The DEFAULT keyword is not supported in the CREATE TABLE statement in this edition of SQL Server. (24584) (SQLExecDirectW)')
+2025-09-26 15:33:35,412 - data_sync_ai.fabric - ERROR - [fabric_service.py:100] - Query: 
+        IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[template_columns]') AND type in (N'U'))
+        BEGIN
+            CREATE TABLE [dbo].[template_columns] (
+                [column_id] NVARCHAR(36) NOT NULL DEFAULT NEWID(),
+                [template_id] NVARCHAR(36) NOT NULL,
+                [column_name] NVARCHAR(255) NOT NULL,
+                [data_type] NVARCHAR(50) NOT NULL,
+                [is_required] BIT NOT NULL DEFAULT 0,
+                [column_order] INT,
+                [created_at] DATETIME2 NOT NULL DEFAULT GETUTCDATE(),
+                CONSTRAINT [PK_template_columns] PRIMARY KEY ([column_id])
+            )
+        END
+        
+2025-09-26 15:33:35,412 - data_sync_ai.fabric - ERROR - [fabric_service.py:101] - Params: ()
+2025-09-26 15:33:35,432 - data_sync_ai.fabric - DEBUG - [fabric_service.py:64] - Fabric connection established
+2025-09-26 15:33:35,458 - data_sync_ai.fabric - ERROR - [fabric_service.py:99] - Query execution failed: ('42000', '[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]The DEFAULT keyword is not supported in the CREATE TABLE statement in this edition of SQL Server. (24584) (SQLExecDirectW)')
+2025-09-26 15:33:35,458 - data_sync_ai.fabric - ERROR - [fabric_service.py:100] - Query: 
+        IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[column_validation_rules]') AND type in (N'U'))
+        BEGIN
+            CREATE TABLE [dbo].[column_validation_rules] (
+                [rule_id] NVARCHAR(36) NOT NULL DEFAULT NEWID(),
+                [column_id] NVARCHAR(36) NOT NULL,
+                [rule_type] NVARCHAR(50) NOT NULL,
+                [rule_value] NVARCHAR(500),
+                [error_message] NVARCHAR(500),
+                [is_active] BIT NOT NULL DEFAULT 1,
+                [created_at] DATETIME2 NOT NULL DEFAULT GETUTCDATE(),
+                CONSTRAINT [PK_column_validation_rules] PRIMARY KEY ([rule_id])
+            )
+        END
+        
+2025-09-26 15:33:35,459 - data_sync_ai.fabric - ERROR - [fabric_service.py:101] - Params: ()
+2025-09-26 15:33:35,479 - data_sync_ai.fabric - DEBUG - [fabric_service.py:64] - Fabric connection established
+2025-09-26 15:33:35,506 - data_sync_ai.fabric - ERROR - [fabric_service.py:99] - Query execution failed: ('42000', '[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]The DEFAULT keyword is not supported in the CREATE TABLE statement in this edition of SQL Server. (24584) (SQLExecDirectW)')
+2025-09-26 15:33:35,506 - data_sync_ai.fabric - ERROR - [fabric_service.py:100] - Query: 
+        IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[validation_history]') AND type in (N'U'))
+        BEGIN
+            CREATE TABLE [dbo].[validation_history] (
+                [validation_id] NVARCHAR(36) NOT NULL DEFAULT NEWID(),
+                [template_id] NVARCHAR(36) NOT NULL,
+                [user_id] NVARCHAR(36) NOT NULL,
+                [tenant_id] NVARCHAR(36),
+                [original_filename] NVARCHAR(500),
+                [total_rows] INT,
+                [error_count] INT NOT NULL DEFAULT 0,
+                [status] NVARCHAR(20) NOT NULL DEFAULT 'pending' CHECK ([status] IN ('pending', 'processing', 'completed', 'failed')),
+                [lakehouse_original_path] NVARCHAR(1000),
+                [lakehouse_corrected_path] NVARCHAR(1000),
+                [processing_start] DATETIME2,
+                [processing_end] DATETIME2,
+                [created_at] DATETIME2 NOT NULL DEFAULT GETUTCDATE(),
+                CONSTRAINT [PK_validation_history] PRIMARY KEY ([validation_id])
+            )
+        END
+        
+2025-09-26 15:33:35,507 - data_sync_ai.fabric - ERROR - [fabric_service.py:101] - Params: ()
+2025-09-26 15:33:35,527 - data_sync_ai.fabric - DEBUG - [fabric_service.py:64] - Fabric connection established
+2025-09-26 15:33:35,549 - data_sync_ai.fabric - ERROR - [fabric_service.py:99] - Query execution failed: ('42S02', "[42S02] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid object name 'dbo.users'. (208) (SQLExecDirectW); [42S02] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+2025-09-26 15:33:35,550 - data_sync_ai.fabric - ERROR - [fabric_service.py:100] - Query: SELECT COUNT(*) as count FROM [dbo].[users] WHERE [email] = ?
+2025-09-26 15:33:35,550 - data_sync_ai.fabric - ERROR - [fabric_service.py:101] - Params: ('admin@datasync.ai',)
+2025-09-26 15:33:35,551 - data_sync_ai.api - INFO - [app.py:159] - Database schema initialized
+2025-09-26 15:33:35,551 - data_sync_ai.api - INFO - [app.py:161] - SQL Fabric service initialized
+2025-09-26 15:33:35,586 - data_sync_ai.duckdb - ERROR - [duckdb_service.py:52] - DuckDB initialization failed: Parser Error: Unrecognized print format true, supported formats: [json, query_tree, query_tree_optimizer, no_output]
+2025-09-26 15:33:35,586 - data_sync_ai.api - WARNING - [app.py:175] - DuckDB processor initialization failed: Parser Error: Unrecognized print format true, supported formats: [json, query_tree, query_tree_optimizer, no_output]
+2025-09-26 15:33:35,589 - data_sync_ai.api - INFO - [app.py:178] - Core services initialized successfully
+2025-09-26 15:33:35,592 - data_sync_ai.api - INFO - [app.py:186] - Starting Data Sync AI Enterprise API...
+2025-09-26 15:33:35,601 - werkzeug - WARNING - [_internal.py:187] -  * Debugger is active!
+2025-09-26 15:33:35,609 - werkzeug - INFO - [_internal.py:187] -  * Debugger PIN: 135-922-860
+2025-09-26 15:35:01,774 - data_sync_ai.api - INFO - [app.py:132] - Initializing Data Sync AI enterprise services...
+2025-09-26 15:35:03,920 - data_sync_ai.redis - INFO - [app_redis.py:39] - Redis connection established: localhost:6379/0
+2025-09-26 15:35:03,920 - data_sync_ai.api - INFO - [app.py:138] - Redis cache initialized successfully
+2025-09-26 15:35:05,455 - data_sync_ai.fabric - ERROR - [fabric_service.py:57] - Fabric connection test failed: ('28000', "[28000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user '<token-identified principal>'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user '<token-identified principal>'. (18456)")
+2025-09-26 15:35:05,455 - data_sync_ai.api - WARNING - [app.py:163] - Fabric service initialization failed: ('28000', "[28000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user '<token-identified principal>'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user '<token-identified principal>'. (18456)")
+2025-09-26 15:35:05,493 - data_sync_ai.duckdb - ERROR - [duckdb_service.py:52] - DuckDB initialization failed: Parser Error: Unrecognized print format true, supported formats: [json, query_tree, query_tree_optimizer, no_output]
+2025-09-26 15:35:05,494 - data_sync_ai.api - WARNING - [app.py:175] - DuckDB processor initialization failed: Parser Error: Unrecognized print format true, supported formats: [json, query_tree, query_tree_optimizer, no_output]
+2025-09-26 15:35:05,499 - data_sync_ai.api - INFO - [app.py:178] - Core services initialized successfully
+2025-09-26 15:35:05,501 - data_sync_ai.api - INFO - [app.py:186] - Starting Data Sync AI Enterprise API...
+2025-09-26 15:35:06,779 - werkzeug - INFO - [_internal.py:187] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.65:5000
+2025-09-26 15:35:06,779 - werkzeug - INFO - [_internal.py:187] - [33mPress CTRL+C to quit[0m
+2025-09-26 15:35:06,782 - werkzeug - INFO - [_internal.py:187] -  * Restarting with stat
+2025-09-26 15:35:07,585 - data_sync_ai.api - INFO - [app.py:132] - Initializing Data Sync AI enterprise services...
+2025-09-26 15:35:09,719 - data_sync_ai.redis - INFO - [app_redis.py:39] - Redis connection established: localhost:6379/0
+2025-09-26 15:35:09,719 - data_sync_ai.api - INFO - [app.py:138] - Redis cache initialized successfully
+2025-09-26 15:35:10,611 - data_sync_ai.fabric - ERROR - [fabric_service.py:57] - Fabric connection test failed: ('28000', "[28000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user '<token-identified principal>'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user '<token-identified principal>'. (18456)")
+2025-09-26 15:35:10,611 - data_sync_ai.api - WARNING - [app.py:163] - Fabric service initialization failed: ('28000', "[28000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user '<token-identified principal>'. (18456) (SQLDriverConnect); [28000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Login failed for user '<token-identified principal>'. (18456)")
+2025-09-26 15:35:10,644 - data_sync_ai.duckdb - ERROR - [duckdb_service.py:52] - DuckDB initialization failed: Parser Error: Unrecognized print format true, supported formats: [json, query_tree, query_tree_optimizer, no_output]
+2025-09-26 15:35:10,644 - data_sync_ai.api - WARNING - [app.py:175] - DuckDB processor initialization failed: Parser Error: Unrecognized print format true, supported formats: [json, query_tree, query_tree_optimizer, no_output]
+2025-09-26 15:35:10,647 - data_sync_ai.api - INFO - [app.py:178] - Core services initialized successfully
+2025-09-26 15:35:10,649 - data_sync_ai.api - INFO - [app.py:186] - Starting Data Sync AI Enterprise API...
+2025-09-26 15:35:10,656 - werkzeug - WARNING - [_internal.py:187] -  * Debugger is active!
+2025-09-26 15:35:10,661 - werkzeug - INFO - [_internal.py:187] -  * Debugger PIN: 135-922-860
+2025-09-26 16:33:33,898 - data_sync_ai.api - INFO - [app_working.py:253] - Initializing Data Sync AI enterprise services...
+2025-09-26 16:33:36,066 - data_sync_ai.redis - INFO - [app_redis_fallback.py:46] - Redis connection established: localhost:6379/0
+2025-09-26 16:34:54,867 - data_sync_ai.fabric - ERROR - [fabric_service.py:57] - Fabric connection test failed: ('CE269', "[CE269] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Error 12002 sending request to https://login.windows.net (0) (SQLDriverConnect); [CE269] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Error requesting access token, HTTP status -1, expected 200 (0); [CE269] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Failed to authenticate the user '07fa0494-da26-4a33-b764-0f020b250a38' in Entra ID (Authentication option is 'ActiveDirectoryServicePrincipal').\r\nError code 0xA190; state 41360\r\n (0); [CE269] [Microsoft][ODBC Driver 18 for SQL Server]TCP Provider: Timeout error [258].  (258); [CE269] [Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired (0); [CE269] [Microsoft][ODBC Driver 18 for SQL Server]Unable to complete login process due to delay in login response (258)")
+2025-09-26 16:34:54,868 - data_sync_ai.api - WARNING - [app_working.py:287] - SQL Fabric service initialization failed: ('CE269', "[CE269] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Error 12002 sending request to https://login.windows.net (0) (SQLDriverConnect); [CE269] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Error requesting access token, HTTP status -1, expected 200 (0); [CE269] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Failed to authenticate the user '07fa0494-da26-4a33-b764-0f020b250a38' in Entra ID (Authentication option is 'ActiveDirectoryServicePrincipal').\r\nError code 0xA190; state 41360\r\n (0); [CE269] [Microsoft][ODBC Driver 18 for SQL Server]TCP Provider: Timeout error [258].  (258); [CE269] [Microsoft][ODBC Driver 18 for SQL Server]Login timeout expired (0); [CE269] [Microsoft][ODBC Driver 18 for SQL Server]Unable to complete login process due to delay in login response (258)")
+2025-09-26 16:36:05,211 - data_sync_ai.duckdb - DEBUG - [duckdb_service_fixed.py:37] - DuckDB extension loaded: httpfs
+2025-09-26 16:37:12,597 - data_sync_ai.duckdb - DEBUG - [duckdb_service_fixed.py:37] - DuckDB extension loaded: json
+2025-09-26 16:38:20,250 - data_sync_ai.duckdb - DEBUG - [duckdb_service_fixed.py:37] - DuckDB extension loaded: parquet
+2025-09-26 16:38:20,251 - data_sync_ai.duckdb - INFO - [duckdb_service_fixed.py:44] - DuckDB initialized with memory_limit=4GB, threads=4
+2025-09-26 16:38:20,251 - data_sync_ai.api - INFO - [app_working.py:298] - DuckDB processor initialized successfully
+2025-09-26 16:38:21,668 - msal.authority - DEBUG - [authority.py:75] - Initializing with Entra authority: https://login.microsoftonline.com/5e9613ad-7abe-497b-9548-d462ce17e43b
+2025-09-26 16:38:21,669 - azure.core.pipeline.policies.http_logging_policy - INFO - [_universal.py:511] - Request URL: 'https://login.microsoftonline.com/5e9613ad-7abe-497b-9548-d462ce17e43b/v2.0/.well-known/openid-configuration'
+Request method: 'GET'
+Request headers:
+    'User-Agent': 'azsdk-python-identity/1.14.0 Python/3.13.3 (Windows-11-10.0.26220-SP0)'
+No body was attached to the request
+2025-09-26 16:38:21,674 - urllib3.connectionpool - DEBUG - [connectionpool.py:1049] - Starting new HTTPS connection (1): login.microsoftonline.com:443
