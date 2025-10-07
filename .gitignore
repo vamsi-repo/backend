@@ -1,0 +1,9 @@
+﻿.env
+.env.redis
+.env.example
+__pycache__/
+sessions/
+flask_session/
+logs/
+temp/
+uploads/
